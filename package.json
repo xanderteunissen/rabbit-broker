@@ -2,10 +2,10 @@
     "name": "rabbit-broker",
     "version": "1.0.0",
     "description": "A RMQ message broker class",
-    "main": "dist/main.js",
+    "main": "dist/example.js",
     "rootDir": "src",
     "scripts": {
-        "start": "tsc && node dist/main.js",
+        "start": "tsc && node dist/example.js",
         "build": "tsc && npm run copyfiles",
         "copyfiles": "copyfiles -f package.json dist/"
     },

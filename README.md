@@ -22,8 +22,7 @@ See `src/example.ts` for more information.
 1. Check out the repo.
 2. Install dependencies using `npm install`
 3. Copy `.env.example` to `.env` and adjust values
-4. Compile with `tsc`
-5. Run the example using `node dist/example.js`
+4. Start the example with `npm run start`
 
 ## Software
 
