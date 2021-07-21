@@ -27,8 +27,8 @@ See `src/example.ts` for more information.
 
 ## Software
 
-Node.js 14.x
-Amqplib 0.7.x
+- Node.js 14.x
+- Amqplib 0.7.x
 
 ### Settings
 
