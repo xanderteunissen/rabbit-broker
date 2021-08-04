@@ -6,7 +6,7 @@ import { MessageBroker, messageBrokerSingleton } from './message-broker';
  */
 const log = console.debug;
 console.debug = function (args) {
-    log.apply(console, ['[' + (new Date()).toISOString() + ']'].concat(args));
+  log.apply(console, ['[' + (new Date()).toISOString() + ']'].concat(args));
 };
 
 
@@ -21,9 +21,9 @@ const topic = 'test';
  * Subscribe to a topic (exchange is set in .env)
  */
 broker.subscribe('', topic, (message: any, ack: any) => {
-    console.debug(`Received message on \`${topic}\` : \`${message.content.toString('utf8')}\``);
+  console.debug(`Received message on \`${topic}\` : \`${message.content.toString('utf8')}\``);
 
-    ack();
+  ack();
 });
 
 /**
